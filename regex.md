@@ -17,8 +17,8 @@
 |              | **Basic Tokens**                                             |                                                              |
 |              | literal                                                      | `abc` ⇒ abc                                                  |
 | .            | wildcard                                                     | `...` ⇒ abc, def                                             |
-| \|           | or                                                           | `gray|grey` ⇒ gray, grey                                     |
-| ( ... )      | grouping / subexpression                                     | `gr(a|e)y` => gray, grey                                     |
+| \|           | or                                                           | `gray\|grey` ⇒ gray, grey                                     |
+| ( ... )      | grouping / subexpression                                     | `gr(a\|e)y` => gray, grey                                     |
 |              | **Quantifiers**                                              |                                                              |
 | ?            | zero or one                                                  | `colou?r` ⇒ color, colour                                    |
 | *            | zero or more                                                 | `ab*c` ⇒ ac, abc, abbc, abbbc                                |
